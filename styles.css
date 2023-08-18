@@ -1,0 +1,52 @@
+body {
+margin: 0%;
+padding: 10px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header img {
+    width: 15%;
+    padding-left: 8%;
+}
+nav {
+        font-size: 25px;
+        padding: 2%;
+        padding-right: 8%;
+
+}
+nav a {
+    text-decoration: none;
+}
+main {
+    flex-direction: column;
+}
+body main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#capa {
+    width: 85%;
+}
+#sobreUniversidade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    font-size: 350%;
+}
+p {
+    text-align: left;
+    font-size: 140%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+footer h4 {
+    text-align: center;
+}
