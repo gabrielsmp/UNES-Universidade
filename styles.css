@@ -37,9 +37,17 @@ body main {
     align-items: center;
     justify-content: center;
 }
+ol{
+    text-align: left;
+    font-size: 140%;
+    padding-left: 12%;
+    
+}
 h2{
-    text-align: center;
+    text-align: left;
     font-size: 350%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 p {
     text-align: left;
@@ -47,6 +55,31 @@ p {
     padding-left: 10%;
     padding-right: 10%;
 }
+#contato {
+    
+    align-items: center;
+    justify-content: left;
+    width: 85%;
+}
+#contato h2{
+    align-items: center;
+    justify-content: left;
+    padding-left: 0%;
+}
+#contato p{
+    align-items: center;
+    justify-content: left;
+    padding-left: 0%;
+}
+#contato input{
+    align-items: center;
+    justify-content: left;
+    width: 500px;
+}
+form {
+    font-size: 30px;
+}
 footer h4 {
     text-align: center;
 }
+
